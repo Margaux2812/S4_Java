@@ -86,9 +86,7 @@ public class Book {
 	
 	@Override
 	public boolean equals(Object other){
-		return (other instanceof Book &&
-				title.equals(((Book) other).getTitle()) &&
-				author.equals(((Book) other).getAuthor()));
+		return (other instanceof Book && this.equals((Book)other));
 		
 	}
 	
