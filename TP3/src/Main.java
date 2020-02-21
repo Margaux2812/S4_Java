@@ -15,7 +15,7 @@ public class Main {
        System.out.println(b1 == b3);
        System.out.println(b1.equals(b3));
        
-       var list = new ArrayList();
+       var list = new ArrayList<Book>();
        list.add(b1);
        System.out.println(list.indexOf(b2));
        System.out.println(list.indexOf(b3));
