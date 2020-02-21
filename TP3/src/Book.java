@@ -74,7 +74,8 @@ public class Book {
 	 *Question 4: Ici encore, indexOf cherche la référence et croit donc que b3 n'existe pas puisqu'il n'a pas la même référence
 	 *
 	 *Question 5 : Java a une librairie qui permet de comparer deux objets du même type, mais celle-ci va juste comparer les références
-	 *	 *
+	 *On va donc override la version de Java en créant une méthode nommée equals qui prend en paramètre un Object
+	 *	 
 	 *Question 7 : @Override permet d'appeler la seconde méthode plutot que la premiere (celle par défaut de Java)
 	 *
 	 *Question 9 : On a une NullPointerException, car les valeurs sont nulles
